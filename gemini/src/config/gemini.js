@@ -6,7 +6,7 @@ import {
 
 // const { GoogleGenerativeAI } = require("@google/generative-ai");
 
-const GEMINI_API_KEY = "AIzaSyC5YgunHVu12Ro8p0_454In1uVvGs3HE7w";
+const GEMINI_API_KEY = "";
 
 async function runChat(prompt) {
   const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
